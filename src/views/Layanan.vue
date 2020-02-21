@@ -1,23 +1,20 @@
 <template>
   <div>
     <b-jumbotron>
-      <!-- <b-img src="../assets/tes.png" fluid alt="Fluid image"></b-img> -->
-      <div class="container d-flex h-100">
-      <div class="row justify-content-center align-self-center">
-        <div class="col-md-6 intro-info order-md-first order-last">
-          <h2>Solusi<br>Untuk Bisnis <span>Anda</span></h2>
-          <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim. sed do eiusmod tempor incididunt.</p>
-            <b-button>Get Started</b-button>
+      <b-container class="d-flex h-100">
+        <div class="row justify-content-center align-self-center">
+          <div class="col-md-6 intro-info order-md-first order-last">
+            <h2>Layanan</h2>
+            <div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim. sed do eiusmod tempor incididunt.</p>
+              <b-button>Get Started</b-button>
+            </div>
+          </div>    
+          <div class="col-md-6 intro-img order-md-last order-first">
+            <img src="../assets/tes3.png" alt="" class="img-fluid">
           </div>
         </div>
-  
-        <div class="col-md-6 intro-img order-md-last order-first">
-          <img src="../assets/tes3.png" alt="" class="img-fluid">
-        </div>
-      </div>
-
-    </div>
+      </b-container>
     </b-jumbotron>
   </div>
 </template>
